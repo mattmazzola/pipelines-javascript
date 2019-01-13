@@ -1,5 +1,7 @@
 # Sample NodeJS application for Azure Pipelines docs
 
+[![Build Status](https://mattmazzola.visualstudio.com/TestProject/_apis/build/status/TestProject-CI%20(1)?branchName=master)](https://mattmazzola.visualstudio.com/TestProject/_build/latest?definitionId=16?branchName=master)
+
 For information on how to use this repository, see [JavaScript](https://docs.microsoft.com/azure/devops/pipelines/languages/javascript).
 
 | Example | Build status |
