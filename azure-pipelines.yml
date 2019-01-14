@@ -4,18 +4,8 @@ pool:
   vmImage: 'ubuntu-16.04'
 
 steps:
-- task: Npm@1
-  displayName: 'npm ci'
-  inputs:
-    command: custom
-    verbose: false
-    customCommand: ci
-
-- task: Npm@1
-  displayName: 'npm test'
-  inputs:
-    command: custom
-    customCommand: 'test'
+- script: npm ci
+- script: npm test
 
 - task: PublishTestResults@2
   inputs:
