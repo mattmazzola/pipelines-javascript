@@ -5,11 +5,11 @@ pool:
 
 steps:
 - task: Npm@1
-  displayName: 'npm install'
+  displayName: 'npm ci'
   inputs:
     command: custom
     verbose: false
-    customCommand: install
+    customCommand: ci
 
 - task: Npm@1
   displayName: 'npm test'
